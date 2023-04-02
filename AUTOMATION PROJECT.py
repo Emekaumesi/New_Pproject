@@ -10,7 +10,7 @@ def get_time():
     label.config(text=string)
     label.after(1000, get_time)
 
-label = Label(root, font=("ds=digital", 80), background= "black", foreground = "cyan")
+label = Label(root, font=("ds=digital", 80), background= "white", foreground = "purple")
 label.pack(anchor ='center')
 
 get_time()
